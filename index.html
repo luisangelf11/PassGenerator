@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PassGenerator</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./assets/padlock.png" type="image/x-icon">
 </head>
 <body>
-    <form class="form">
+    <form class="form" id="generator">
+        <img src="./assets/password.png" alt="password">
         <label for="pass">Password</label>
-        <input type="text" name="pass" id="pass" disabled>
+        <input type="text" name="pass" id="pass">
         <label for="size">Length</label>
         <input type="number" name="size" id="size">
         <input type="submit" name="submit" id="submit" value="Create">
