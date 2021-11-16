@@ -8,7 +8,7 @@
 .form{
     margin:3rem auto;
     width: 300px;
-    height: 350px;
+    height: 360px;
     display: flex;
     flex-direction: column;
     border: 1px solid #ccc;
@@ -65,7 +65,25 @@ input[type="submit"]{
     border: 1px solid royalblue;
 }
 
+input[type="button"]{
+    padding: 5px;
+    color: #fff;
+    cursor: pointer;
+    width: 260px;
+    margin-left: 20px;
+    outline: 0;
+    border-radius: 3px;
+    margin-top: 5px;
+    background-color: rgb(97, 182, 57);
+    border: 1px solid rgb(97, 182, 57);
+}
+
 input[type="submit"]:hover{
+    transition: all .5s ease;
+    opacity: .7;
+}
+
+input[type="button"]:hover{
     transition: all .5s ease;
     opacity: .7;
 }
